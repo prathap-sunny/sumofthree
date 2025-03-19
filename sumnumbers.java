@@ -1,4 +1,4 @@
-  public class Sum
+  public class sumnumbers
   {
      public int GetSum(int a, int b)
      {
