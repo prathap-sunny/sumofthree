@@ -1,19 +1,5 @@
-  public class sumnumbers
-  {
-     public int GetSum(int a, int b)
-     {
-      
-      int upper = a; 
-      int lower = b;
-      
-      if (a == b)
-        return a;
-      else
-       if (b > a){
-         upper = b;
-         lower = a;       
-       }
-       
-       return (upper - lower + 1) * (lower + upper) / 2;
-     }
-  }
+ public class sumnumbers {
+    public static void main(String[] args) {
+        System.out.println("Hello, Jenkins!");
+    }
+}
